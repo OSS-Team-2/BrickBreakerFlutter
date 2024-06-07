@@ -8,6 +8,7 @@ import 'package:flame/components.dart';
 import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
 
+
 class BrickBreakerGame  extends FlameGame with HasCollisionDetection{
   static double grid = 0.1;
   static late Vector2 gridSize;
